@@ -32,7 +32,9 @@ console.log(diffrenciatingName)**/
 
 // WINDUP ARRAY CHAP
 
-var students = ["hassan", "moiz","rafay", "tayyab", "muneeb", "ameem"]
+//INDEX.OF
+
+/**var students = ["hassan", "moiz","rafay", "tayyab", "muneeb", "ameem"]
 
 var askWhichStudent = prompt("Which Student u want to know is present or not")
 if (students.indexOf(askWhichStudent) >=0){
@@ -43,7 +45,7 @@ if (students.indexOf(askWhichStudent) >=0){
 
 }
 
-//includes
+//INCLUDE
 
 var bakery = ["cakes", "pastery", "egg", "bread", "rusk", "cake rusk"]
 
@@ -53,4 +55,15 @@ if(bakery.includes(askWhichProduct)){
     console.log(`Yes! ${askWhichProduct} is available`)
 } else {
     console.log(`No! ${askWhichProduct} is not available`)
+}**/
+
+// OBJECT
+
+var student1= {
+    name:"Hamza",
+    age:19,
+    address: "5-Star"
 }
+
+console.log(student1)
+
