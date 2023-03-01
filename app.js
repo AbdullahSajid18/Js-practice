@@ -27,14 +27,20 @@
 //     console.log("Oops! No User Found")
 // }
 
-//FOR LOOP
+// //FOR LOOP
 
-var myDailyRoutine= "Chai pio Biscuit khao:)"
-for (let a= 0; a< 3 ; a++) {
-    console.log(myDailyRoutine )
-}
+// var myDailyRoutine= "Chai pio Biscuit khao:)"
+// for (let a= 0; a< 3 ; a++) {
+//     console.log(myDailyRoutine )
+// }
 
-var hondaCars = ["City", "Civic", "Hrv", "Vezel", "Cd-125", "Crv", "Brv"]
-for (let a = 0; a < hondaCars.length; a++) {
-    console.log(`Honda ${hondaCars[a]} is available at floor ${a} `)
-}
+// var hondaCars = ["City", "Civic", "Hrv", "Vezel", "Cd-125", "Crv", "Brv"]
+// for (let a = 0; a < hondaCars.length; a++) {
+//     console.log(`Honda ${hondaCars[a]} is available at floor ${a} `)
+// }
+
+// //FOR REVERSE LOOP 
+var hondaCars=[ "City", "Civic", "Hrv","Vezel", "Cd-125", "Crv", "Brv"]
+  for (let i=7; i>0; i--) {
+    console.log(`Honda ${hondaCars[i]} is available at floor ${i}`)
+  }
