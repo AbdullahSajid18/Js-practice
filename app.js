@@ -40,7 +40,8 @@
 // }
 
 // //FOR REVERSE LOOP 
-var hondaCars=[ "City", "Civic", "Hrv","Vezel", "Cd-125", "Crv", "Brv"]
-  for (let i=7; i>0; i--) {
-    console.log(`Honda ${hondaCars[i]} is available at floor ${i}`)
-  }
+// var hondaCars=[ "City", "Civic", "Hrv","Vezel", "Cd-125", "Crv", "Brv"]
+//   for (let i=7; i>0; i--) {
+//     console.log(`Honda ${hondaCars[i]} is available at floor ${i}`)
+//   }
+
